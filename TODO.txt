@@ -1,0 +1,12 @@
+It would be nice if `opCmp` could return custom type, not int. This
+was possible in D1.0 afaik, not in D2 anymore.
+
+  // auto l = a < b;
+  //   Error: incompatible types for (a.opCmp(b)) < (0): Condition and int
+
+Also, similar it would be nice to be able to overload `&&` and `||`.
+
+  // auto two = amb.Lt(0) && apb.Lt(amb);
+  //   Error: expression amb.result_.Lt(0) of type Condition does not have a boolean value
+  //   Error: expression apb.result_.Lt(amb.result_) of type Condition does not have a boolean value
+

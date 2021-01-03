@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Witold Baryluk"
+	],
+	"copyright": "Copyright © 2021, Witold Baryluk",
+	"description": "Symbolic execution library for D code",
+	"license": "BSL-1.0",
+	"name": "symbolic_execution",
+
+	"subPackages": [
+		"./examples/",
+	],
+}

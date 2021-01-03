@@ -22,3 +22,19 @@ docs/
 
 # Code coverage
 *.lst
+
+.dub
+docs.json
+__dummy.html
+docs/
+/symbolic_execution
+symbolic_execution.so
+symbolic_execution.dylib
+symbolic_execution.dll
+symbolic_execution.a
+symbolic_execution.lib
+symbolic_execution-test-*
+*.exe
+*.o
+*.obj
+*.lst
