@@ -1,8 +1,13 @@
-Symbolic execution in D
+Symbolic execution in D programming language
 
 Just a silly, but interesting idea. Could be useful for translating into Vulkan
 shaders, or OpenCL, or maybe doing other code analysis.
 
+The code takes a D code, slightly modified to handle control flow, then executes
+all possible code paths to capture what the code is doing. During this execution
+it captures all operations. I call it symbolic execution. Once captures, this
+information can be translated into AST of original code, or translated into other
+language, for example to be executed on GPU.
 
 Example:
 
